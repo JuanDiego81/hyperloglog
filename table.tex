@@ -1,0 +1,10 @@
+\renewcommand{\arraystretch}{1.2} % slightly taller rows
+\begin{tabular}{@{} r S[table-format=7.2] S[table-format=1.5] S[table-format=8.2] S[table-format=6.2] c c @{} }
+\toprule
+M & N & $sigma$ & Mean Estimation & Std Dev & Within 1Σ & Within 2Σ \\
+\midrule
+256 & 1000000 & 0.065 & 1001235.67 & 59149.0619 & 73/100 & 99/100 \\
+1024 & 1000000 & 0.0325 & 1001238.35 & 30923.9542 & 66/100 & 98/100 \\
+4096 & 1000000 & 0.01625 & 1002865.66 & 15604.5219 & 69/100 & 97/100 \\
+\bottomrule
+\end{tabular}

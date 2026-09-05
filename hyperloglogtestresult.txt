@@ -1,0 +1,7 @@
+Include this result in the report
+---------------------------------
+For elements in range (1_000_000, 2_000_000)
+hyperloglog estimated 994627 distinct elements (for this number run HyperLogLogExperiment.test())
+distinctNums = 1_000_000
+absolute error 5373
+relative error 0.54%
